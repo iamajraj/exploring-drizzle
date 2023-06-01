@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1685578305930,
+      "tag": "0000_naive_bloodscream",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1685578989798,
+      "tag": "0001_open_mongoose",
+      "breakpoints": false
+    }
+  ]
+}

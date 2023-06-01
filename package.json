@@ -1,0 +1,25 @@
+{
+  "name": "drizzle-orm-explore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node ./src/server.ts",
+    "start": "ts-node ./src/server.ts",
+    "generate": "drizzle-kit generate:sqlite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.4",
+    "@types/node": "^20.2.5",
+    "drizzle-kit": "^0.18.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.4.0",
+    "drizzle-orm": "^0.26.3",
+    "fastify": "^4.17.0"
+  }
+}
